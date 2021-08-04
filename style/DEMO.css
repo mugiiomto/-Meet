@@ -21,6 +21,10 @@ body {
     left: 20px;
 }
 
+a:hover {
+    color: #fff;
+}
+
 .shell {
     position: fixed;
     width: 280px;
