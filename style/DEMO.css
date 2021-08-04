@@ -22,6 +22,10 @@ body {
 
 }
 
+.li ul li a:hover {
+    color: #fff;
+}
+
 .shell {
     position: fixed;
     width: 280px;
@@ -31,10 +35,6 @@ body {
 
 .buttons {
     margin: 60px 0;
-    color: #fff;
-}
-
-a: hover {
     color: #fff;
 }
 
