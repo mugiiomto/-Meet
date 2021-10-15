@@ -1,0 +1,27 @@
+.N1date {
+    /* 设置定时器宽度和高度 */
+    width: 780px;
+    /* height: 80px; */
+    /* 添加绝对定位让定时器水平垂直居中 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 文本对齐方式为居中对齐 */
+    text-align: center;
+    /* 设置字体大小 */
+    font-size: 20px;
+    /* 设置行高 */
+    line-height: 80px;
+    /* 设置字体样式 */
+    font-style: normal;
+    /* 文字颜色 */
+    color: rgb(255, 255, 255);
+    background-color:rgba(167, 39, 145, 0.3) ;
+}
+
+.N1date span {
+    display: inline-block;
+    height: 100%;
+    width: 80px;
+}

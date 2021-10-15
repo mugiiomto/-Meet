@@ -1,0 +1,56 @@
+/* 全局样式，用来写顶部以及底部 */
+
+* {
+    padding : 0;/*清除内边距*/
+    margin: 0;/*清除外边距*/
+    box-sizing: border-box;
+    }
+
+body {
+    /* 垂直居中 */
+    /* align-items: center; */
+    /* 水平居中 */
+    /* justify-content: center; */
+    /* 背景图片 */
+    background-image: url(../images/泪.jpg);
+    /* 设置不重复 */
+    background-repeat:no-repeat;
+    /* 背景大小 */
+    background-size: cover;
+    }
+
+/* section div:hover {
+    background-color: rgba(247, 195, 238, 1);
+} */
+    
+
+/* 快捷导航模块 */
+.shortcut {
+    height: 60px;
+    background-color: rgba(247, 195, 238, 0.3);
+    /* position: relative; */
+}
+
+.shortcut ul li {
+    /* 转化为行元素去除小圆点 */
+    display:inline;
+    /* 左浮动 */
+    float:left;
+    /* 设置文字居中对齐 */
+    text-align: center;
+}
+
+.shortcut ul li a {
+    /* 把链接显示为行内块元素（因为li被转化成了行内元素，所以这里要是行内块而不能是简单地块元素）可使整个链接区域可点击（不仅仅是文本），同时也允许我们规定宽度。 */
+    display:inline-block;
+    /* 由于块元素默认占用全部可用宽度，链接无法滑动至彼此相邻。我们需要规定 60 像素的宽度。 */
+    width:60px;
+    /* 去除链接的下划线 */
+    text-decoration: none;
+    /* 设置字体大小 */
+    font-size: 20px;
+    /* 设置行高使文字垂直居中 */
+    line-height: 60px;
+}
+
+

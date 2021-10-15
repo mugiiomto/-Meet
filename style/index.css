@@ -1,0 +1,49 @@
+/* 头部的盒子 */
+.header {
+    /* background-color: rgba(247, 195, 238, 0.3); */
+    /* 盒子的宽度和高度 */
+    width: 100%;
+    height: 500px;
+    /* 设置文字水平居中 */
+    /* text-align: center; */
+    /* 给父元素相对定位 */
+    position: relative;
+}
+
+.header .header_01 {
+    width: 450px;
+    height: 55px;
+    /* 添加绝对定位让定时器水平垂直居中 */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* 设置字体大小 */
+    font-size: 40px;
+    /* 设置字体样式 */
+    font-style: normal;
+    /* 设置字体颜色 */
+    color: rgb(255, 255, 255);
+}
+
+.header .header_02 {
+    width: 450px;
+    height: 55px;
+    /* 添加绝对定位让定时器水平垂直居中 */
+    position: absolute;
+    top: 65%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+    /* 设置字体大小 */
+    font-size: 20px;
+    /* 设置字体样式 */
+    font-style: normal;
+    /* 设置字体颜色 */
+    color: rgb(255, 255, 255);
+}
+
+.hhh {
+    /* 盒子的宽度和高度 */
+    width: 100%;
+    height: 500px;
+}
